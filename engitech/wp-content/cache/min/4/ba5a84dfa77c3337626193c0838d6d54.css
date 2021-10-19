@@ -51088,7 +51088,7 @@ h6,
 }
 
 .users-list>li {
-    width: 25%;
+    width: 15%;
     float: left;
     padding: 10px;
     text-align: center
@@ -51128,7 +51128,7 @@ a {
 }
 
 .users-list>li {
-    width: 25%;
+    width: 15%;
     float: left;
     padding: 10px;
     text-align: center
@@ -51143,12 +51143,40 @@ a {
 .users-list-date {
     display: block
 }
+@media (min-width:767px) {
+	.users-list>li {
+		width: 14%;
+		float: left;
+		padding: 10px;
+		text-align: center
+	}
+}
+@media (max-width:767px) {
+	.users-list>li {
+		width: 25%;
+		float: left;
+		padding: 10px;
+		text-align: center
+	}
+}
 
-.users-list>li {
-    width: 25%;
-    float: left;
-    padding: 10px;
-    text-align: center
+@media (max-width:767px) {
+	#chng {
+		margin-left:30px;
+		margin-top: 10px;
+	}
+}
+@media (max-width:767px) {
+	#chng1 {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+}
+@media (max-width:767px) {
+	#chng2 {
+		margin-left: 10px;
+		margin-top: 10px;
+	}
 }
 
 .box-footer {
