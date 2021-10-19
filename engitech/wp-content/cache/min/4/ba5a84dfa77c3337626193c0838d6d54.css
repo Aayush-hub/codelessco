@@ -32188,7 +32188,9 @@ div.elementor-widget-heading.elementor-widget-heading h6.elementor-heading-title
 
 @media (min-width:1230px) {
 	.elementor .elementor-section.elementor-section-boxed>.elementor-container {
-		max-width: 1200px
+		max-width: 1200px;
+		padding-top: 8px;
+		padding-bottom: 1px;
 	}
 	.elementor-element .container {
 		width: 1170px;
